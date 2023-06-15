@@ -1,3 +1,5 @@
+package entities;
+
 import entities.Role;
 import entities.User;
 import org.junit.jupiter.api.Assertions;

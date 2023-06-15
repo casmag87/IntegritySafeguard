@@ -2,7 +2,7 @@ package DTO;
 
 public class ArticleDTO {
 
-    int id;
+    Long id;
     String title;
     String opening;
     String imgUrl;
@@ -10,7 +10,10 @@ public class ArticleDTO {
     String MainSection;
 
 
-    public ArticleDTO(int id, String title, String opening, String imgUrl, String published, String mainSection) {
+    public ArticleDTO() {
+    }
+
+    public ArticleDTO(Long id, String title, String opening, String imgUrl, String published, String mainSection) {
         this.id = id;
         this.title = title;
         this.opening = opening;
@@ -19,11 +22,11 @@ public class ArticleDTO {
         MainSection = mainSection;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

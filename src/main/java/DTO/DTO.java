@@ -1,2 +1,8 @@
-package DTO;public interface DTO {
+package DTO;
+
+public interface DTO {
+
+    void fromEntity(Object entity);
+    Object toEntity();
+
 }

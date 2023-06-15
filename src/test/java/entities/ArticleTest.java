@@ -1,3 +1,4 @@
+package entities;
 
 import DTO.ArticleDTO;
 import org.junit.jupiter.api.AfterEach;
